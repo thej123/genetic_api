@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="static/myTune/css/home.css">    
+    <title>Musical Score</title>
+</head>
+<body>
+    <h1>Welcome {{ request.session.name }}</h1>
+    <fieldset>
+        <a href='give_score'><button>Click here to get your musical score</button></a>
+        <h1>Score: {{ music_score }}</h1>
+        <h2>Description: {{ description }}</h2>
+    </fieldset><br>
+    <fieldset>
+        <h2>Your Alleles</h2>
+        {{ your_alleles }}
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <a href='make_my_own'><button>Make my own Alleles?</button></a>  
+    </fieldset>
+
+    
+</body>
+</html>

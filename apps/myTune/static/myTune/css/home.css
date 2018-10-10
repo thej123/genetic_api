@@ -1,0 +1,13 @@
+body {
+    /* background: url('../img/1200px-23andMe_logo.svg.png') no-repeat center center fixed; */
+    background-color: lightgreen;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+fieldset {
+    display: inline;
+}
